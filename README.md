@@ -7,14 +7,14 @@ Learn Rust with examples (Live code editor included)
 ## Using
 
 If you'd like to read Rust by Example, you can visit
-[https://rustbyexample.com/](https://rustbyexample.com/) to read it online.
+[https://doc.rust-lang.org/stable/rust-by-example/](https://doc.rust-lang.org/stable/rust-by-example/) to read it online.
 
 If you'd like to read it locally, [install Rust], and then:
 
 ```bash
 $ git clone https://github.com/rust-lang/rust-by-example
 $ cd rust-by-example
-$ cargo install mdbook
+$ cargo install mdbook --version ^0.2 --force
 $ mdbook build
 $ mdbook serve
 ```
@@ -34,6 +34,7 @@ Please see the [CONTRIBUTING.md] file for more details.
 
 * [Chinese](https://github.com/rust-lang-cn/rust-by-example-cn)
 * [Japanese](https://github.com/rust-lang-ja/rust-by-example-ja)
+* [French](https://github.com/Songbird0/FR_RBE)
 
 ## License
 

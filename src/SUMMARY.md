@@ -35,8 +35,8 @@
     - [Aliasing](types/alias.md)
 
 - [Conversion](conversion.md)
-    - [From and Into](conversion/from_into.md)
-    - [To and From String](conversion/string.md)
+    - [`From` and `Into`](conversion/from_into.md)
+    - [To and from `String`s](conversion/string.md)
 
 - [Expressions](expression.md)
 
@@ -70,6 +70,7 @@
             - [Iterator::any](fn/closures/closure_examples/iter_any.md)
             - [Iterator::find](fn/closures/closure_examples/iter_find.md)
     - [Higher Order Functions](fn/hof.md)
+    - [Diverging functions](fn/diverging.md)
 
 - [Modules](mod.md)
     - [Visibility](mod/visibility.md)
@@ -81,6 +82,12 @@
 - [Crates](crates.md)
     - [Library](crates/lib.md)
     - [`extern crate`](crates/link.md)
+
+- [Cargo](cargo.md)
+    - [Dependencies](cargo/deps.md)
+    - [Conventions](cargo/conventions.md)
+    - [Tests](cargo/test.md)
+    - [Build Scripts](cargo/build_scripts.md)
 
 - [Attributes](attribute.md)
     - [`dead_code`](attribute/unused.md)
@@ -119,8 +126,8 @@
         - [Structs](scope/lifetime/struct.md)
         - [Bounds](scope/lifetime/lifetime_bounds.md)
         - [Coercion](scope/lifetime/lifetime_coercion.md)
-        - [static](scope/lifetime/static_lifetime.md)
-        - [elision](scope/lifetime/elision.md)
+        - [Static](scope/lifetime/static_lifetime.md)
+        - [Elision](scope/lifetime/elision.md)
 
 - [Traits](trait.md)
     - [Derive](trait/derive.md)
@@ -130,7 +137,7 @@
     - [Clone](trait/clone.md)
 
 - [macro_rules!](macros.md)
-    - [Syntax](macro/syntax.md)
+    - [Syntax](macros/syntax.md)
         - [Designators](macros/designators.md)
         - [Overload](macros/overload.md)
         - [Repeat](macros/repeat.md)
@@ -184,8 +191,16 @@
         - [Argument parsing](std_misc/arg/matching.md)
     - [Foreign Function Interface](std_misc/ffi.md)
 
-- [Meta](meta.md)
-    - [Documentation](meta/doc.md)
-    - [Testing](meta/test.md)
+- [Testing](testing.md)
+    - [Unit testing](testing/unit_testing.md)
+    - [Documentation testing](testing/doc_testing.md)
+    - [Integration testing](testing/integration_testing.md)
+    - [Dev-dependencies](testing/dev_dependencies.md)
 
 - [Unsafe Operations](unsafe.md)
+
+- [Compatibility](compatibility.md)
+    - [Raw identifiers](compatibility/raw_identifiers.md)
+
+- [Meta](meta.md)
+    - [Documentation](meta/doc.md)

@@ -26,10 +26,7 @@ impl Days {
 }
 
 fn old_enough(age: &Years) -> bool {
-    if age.0 >= 18 {
-        return true
-    }
-    false
+    age.0 >= 18
 }
 
 fn main() {
@@ -47,5 +44,5 @@ Uncomment the last print statement to observe that the type supplied must be `Ye
 
 [`structs`][struct]
 
-[struct]: /custom_types/structs.html
+[struct]: custom_types/structs.html
 

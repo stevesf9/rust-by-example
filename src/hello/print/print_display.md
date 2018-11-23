@@ -110,8 +110,9 @@ each requires its own implementation. This is detailed further in
 After checking the output of the above example, use the `Point2D` struct as
 guide to add a Complex struct to the example. When printed in the same
 way, the output should be:
-```
-Display: 3.3 + 7.2i
+
+```txt
+Display: 3.3 +7.2i
 Debug: Complex { real: 3.3, imag: 7.2 }
 ```
 
@@ -120,9 +121,9 @@ Debug: Complex { real: 3.3, imag: 7.2 }
 [`derive`][derive], [`std::fmt`][fmt], [macros], [`struct`][structs],
 [`trait`][traits], and [use][use]
 
-[derive]: /trait/derive.html
+[derive]: trait/derive.html
 [fmt]: https://doc.rust-lang.org/std/fmt/
-[macros]: /macros.html
-[structs]: /custom_types/structs.html
-[traits]: /trait.html
-[use]: /mod/use.html
+[macros]: macros.html
+[structs]: custom_types/structs.html
+[traits]: trait.html
+[use]: mod/use.html

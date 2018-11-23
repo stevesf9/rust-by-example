@@ -26,6 +26,26 @@ fn main() {
 }
 ```
 
+Alternatively, `a..=b` can be used for a range that is inclusive on both ends.
+The above can be written as:
+
+```rust,editable
+fn main() {
+    // `n` will take the values: 1, 2, ..., 100 in each iteration
+    for n in 1..=100 {
+        if n % 15 == 0 {
+            println!("fizzbuzz");
+        } else if n % 3 == 0 {
+            println!("fizz");
+        } else if n % 5 == 0 {
+            println!("buzz");
+        } else {
+            println!("{}", n);
+        }
+    }
+}
+```
+
 ## for and iterators
 
 The `for in` construct is able to interact with an `Iterator` in several ways.
@@ -42,12 +62,14 @@ collection.
   Thus leaving the collection untouched and available for reuse after the loop.
 
 ```rust, editable
-let names = vec!["Bob", "Frank", "Ferris"];
+fn main() {
+    let names = vec!["Bob", "Frank", "Ferris"];
 
-for name in names.iter() {
-    match name {
-        &"Ferris" => println!("There is a rustacean among us!"),
-        _ => println!("Hello {}", name),
+    for name in names.iter() {
+        match name {
+            &"Ferris" => println!("There is a rustacean among us!"),
+            _ => println!("Hello {}", name),
+        }
     }
 }
 ```
@@ -57,12 +79,14 @@ for name in names.iter() {
   available for reuse as it has been 'moved' within the loop.
 
 ```rust, editable
-let names = vec!["Bob", "Frank", "Ferris"];
+fn main() {
+    let names = vec!["Bob", "Frank", "Ferris"];
 
-for name in names.into_iter() {
-    match name {
-        "Ferris" => println!("There is a rustacean among us!"),
-        _ => println!("Hello {}", name),
+    for name in names.into_iter() {
+        match name {
+            "Ferris" => println!("There is a rustacean among us!"),
+            _ => println!("Hello {}", name),
+        }
     }
 }
 ```
@@ -71,12 +95,14 @@ for name in names.into_iter() {
   the collection to be modified in place.
 
 ```rust, editable
-let mut names = vec!["Bob", "Frank", "Ferris"];
+fn main() {
+    let mut names = vec!["Bob", "Frank", "Ferris"];
 
-for name in names.iter_mut() {
-    match name {
-        &mut "Ferris" => println!("There is a rustacean among us!"),
-        _ => println!("Hello {}", name),
+    for name in names.iter_mut() {
+        match name {
+            &mut "Ferris" => println!("There is a rustacean among us!"),
+            _ => println!("Hello {}", name),
+        }
     }
 }
 ```
@@ -89,4 +115,4 @@ implies differing actions that are able to be performed.
 
 [Iterator][iter]
 
-[iter]: /trait/iter.html
+[iter]: trait/iter.html

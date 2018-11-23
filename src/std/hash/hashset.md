@@ -30,7 +30,7 @@ Sets have 4 primary operations (all of the following calls return an iterator):
 * `symmetric_difference`: 
 get all the elements that are in one set or the other, but *not* both.
 
-Try all of these in the following example.
+Try all of these in the following example:
 
 ```rust,editable,ignore,mdbook-runnable
 use std::collections::HashSet;
@@ -70,7 +70,7 @@ fn main() {
 }
 ```
 
-(Examples adapted from the [documentation.][hash-set])
+(Examples are adapted from the [documentation.][hash-set])
 
 [treeset]: https://doc.rust-lang.org/std/collections/struct.BTreeSet.html
 [hash-set]: https://doc.rust-lang.org/std/collections/struct.HashSet.html#method.difference

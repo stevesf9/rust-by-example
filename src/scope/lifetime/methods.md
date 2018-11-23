@@ -14,7 +14,7 @@ impl Owner {
 }
 
 fn main() {
-    let mut owner  = Owner(18);
+    let mut owner = Owner(18);
 
     owner.add_one();
     owner.print();
@@ -23,6 +23,6 @@ fn main() {
 
 ### See also:
 
-[methods][methods]
+[methods]
 
-[methods]: /fn/methods.html
+[methods]: fn/methods.html

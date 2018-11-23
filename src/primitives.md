@@ -5,8 +5,9 @@ Rust provides access to a wide variety of `primitives`. A sample includes:
 
 ### Scalar Types
 
-* signed integers: `i8`, `i16`, `i32`, `i64` and `isize` (pointer size)
-* unsigned integers: `u8`, `u16`, `u32`, `u64` and `usize` (pointer size)
+* signed integers: `i8`, `i16`, `i32`, `i64`, `i128` and `isize` (pointer size)
+* unsigned integers: `u8`, `u16`, `u32`, `u64`, `u128` and `usize` (pointer
+  size)
 * floating point: `f32`, `f64`
 * `char` Unicode scalar values like `'a'`, `'α'` and `'∞'` (4 bytes each)
 * `bool` either `true` or `false`
@@ -57,6 +58,6 @@ fn main() {
 [the `std` library][std], [`mut`][mut], [inference], and [shadowing]
 
 [std]: https://doc.rust-lang.org/std/
-[mut]: https://rustbyexample.com/variable_bindings/mut.html
-[inference]: https://rustbyexample.com/cast/inference.html
-[shadowing]: https://rustbyexample.com/variable_bindings/scope.html
+[mut]: variable_bindings/mut.html
+[inference]: types/inference.html
+[shadowing]: variable_bindings/scope.html

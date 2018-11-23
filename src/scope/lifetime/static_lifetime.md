@@ -1,4 +1,4 @@
-# static
+# Static
 
 A `'static` lifetime is the longest possible lifetime, and lasts for 
 the lifetime of the running program. A `'static` lifetime may also be 
@@ -49,4 +49,4 @@ fn main() {
 
 [`'static` constants][static_const]
 
-[static_const]: /custom_types/constants.html
+[static_const]: custom_types/constants.html

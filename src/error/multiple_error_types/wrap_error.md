@@ -83,13 +83,12 @@ fn main() {
 ```
 
 This adds a bit more boilerplate for handling errors and might not be needed in
-all applications. There are some libraries that can take care of the boiler
-plate for you.
+all applications. There are some libraries that can take care of the boilerplate
+for you.
 
 ### See also:
 
 [`From::from`][from] and [`Enums`][enums]
 
 [from]: https://doc.rust-lang.org/std/convert/trait.From.html
-[q_mark]: https://doc.rust-lang.org/reference/expressions.html#the--operator
-[enums]: /custom_types/enum.html
+[enums]: custom_types/enum.html

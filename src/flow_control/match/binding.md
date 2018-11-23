@@ -11,7 +11,7 @@ fn age() -> u32 {
 }
 
 fn main() {
-    println!("Tell me type of person you are");
+    println!("Tell me what type of person you are");
 
     match age() {
         0             => println!("I'm not born yet I guess"),
@@ -27,6 +27,6 @@ fn main() {
 ```
 
 ### See also:
-[functions][functions]
+[functions]
 
-[functions]: /fn.html
+[functions]: fn.html

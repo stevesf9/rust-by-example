@@ -7,7 +7,7 @@ some of which include:
 * `print!`: same as `format!` but the text is printed to the console (io::stdout).
 * `println!`: same as `print!` but a newline is appended.
 * `eprint!`: same as `format!` but the text is printed to the standard error (io::stderr).
-* `eprintln!`: sames as `eprint!`but a newline is appended.
+* `eprintln!`: same as `eprint!`but a newline is appended.
 
 All parse text in the same fashion. A plus is that the formatting correctness will
 be checked at compile time.
@@ -83,7 +83,7 @@ for these types. To print text for custom types, more steps are required.
 and [`traits`][traits]
 
 [fmt]: https://doc.rust-lang.org/std/fmt/
-[macros]: /macros.html
-[string]: /std/str.html
-[structs]: /custom_types/structs.html
-[traits]: /trait.html
+[macros]: macros.html
+[string]: std/str.html
+[structs]: custom_types/structs.html
+[traits]: trait.html

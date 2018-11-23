@@ -49,9 +49,13 @@ Now let's begin!
 
 - [Std misc](std_misc.html) - More custom types for file handling, threads.
 
-- [Meta](meta.html) - Documentation, Testing
+- [Testing](testing.html) - All sorts of testing in Rust.
 
 - [Unsafe Operations](unsafe.html)
+
+- [Compatibility](compatibility.html)
+
+- [Meta](meta.html) - Documentation, Benchmarking.
 
 
 [rust]: https://www.rust-lang.org/
